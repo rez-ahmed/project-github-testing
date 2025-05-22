@@ -21,6 +21,7 @@ const App = () => {
       <p ref={myPTag}></p>
       <button onClick={fetchData}>Call API</button>
       <button onClick={showData}>Show Data</button>
+      <button>Dummy</button>
     </div>
   );
 };
